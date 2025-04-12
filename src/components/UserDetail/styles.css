@@ -1,0 +1,27 @@
+.user-detail {
+    padding: 16px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    margin: 16px;
+  }
+  
+  .user-detail h2 {
+    margin-bottom: 12px;
+  }
+  
+  .user-detail p {
+    margin: 6px 0;
+  }
+  
+  .user-detail a {
+    display: inline-block;
+    margin-top: 16px;
+    color: #3f51b5;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .user-detail a:hover {
+    text-decoration: underline;
+  }
+  
