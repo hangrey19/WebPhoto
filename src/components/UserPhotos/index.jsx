@@ -19,7 +19,7 @@ function UserPhotos() {
   };
 
   if (photos.length === 0) {
-    return <Typography>Không có ảnh nào để hiển thị.</Typography>;
+    return <Typography>No post yet.</Typography>;
   }
 
   return (
@@ -41,7 +41,7 @@ function UserPhotos() {
             {photo.comments && photo.comments.length > 0 && (
               <>
                 <Divider sx={{ my: 2 }} />
-                <Typography variant="subtitle1">💬 Bình luận:</Typography>
+                <Typography variant="subtitle1">💬 Comment:</Typography>
                 {photo.comments.map((comment) => (
                   <div key={comment._id} style={{ marginBottom: '10px' }}>
                     <Typography variant="body2">

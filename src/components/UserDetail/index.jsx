@@ -32,7 +32,7 @@ function UserDetail() {
           to={`/photos/${user._id}`} 
           sx={{ marginTop: 2 }}
         >
-          Xem ảnh của {user.first_name}
+          See posts of {user.first_name}
         </Button>
       </CardContent>
     </Card>
